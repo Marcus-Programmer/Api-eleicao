@@ -23,6 +23,6 @@ for informacoes in json_data['cand']:
     
    
 df_eleicao = pd.DataFrame(list(zip(candidato,votos,porcentagem)),columns=['Candidato','N° Votos','Porcentagem'])
-print(pa)
+print("Porcentagem das urnas apuradas: ",pa,"%")
 print(df_eleicao)
     
